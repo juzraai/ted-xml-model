@@ -40,7 +40,7 @@ I'm planning to create a model on TED's CODIF data and other resources that one 
 |:---------------------|:------:|:------:|
 | `TECHNICAL_SECTION`  |   ✔   |        |
 | `LINKS_SECTION`      |   ✔   |        |
-| `SENDER`             |        |        |
+| `SENDER`             |   ✔   |        |
 | `CODED_DATA_SECTION` |   ✔   |        |
 | *(...WIP...)* |
 

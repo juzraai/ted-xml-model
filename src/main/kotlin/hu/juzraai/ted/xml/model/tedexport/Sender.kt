@@ -1,5 +1,11 @@
 package hu.juzraai.ted.xml.model.tedexport
 
+import hu.juzraai.ted.xml.model.tedexport.sender.Contact
+import hu.juzraai.ted.xml.model.tedexport.sender.Identification
+import hu.juzraai.ted.xml.model.tedexport.sender.Notification
+import hu.juzraai.ted.xml.model.tedexport.sender.YesNo
+import org.simpleframework.xml.Attribute
+import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root
 
 /**
@@ -7,17 +13,17 @@ import org.simpleframework.xml.Root
  *
  * @author Zsolt Jurányi
  */
-@Root(name = "SENDER", strict = false) // TODO
+@Root(name = "SENDER")
 data class Sender(
-		//		@field:Attribute(name = "PUBLICATION")
-		//		var publication: Publication = Publication(),
-		//
-		//		@field:Element(name = "IDENTIFICATION")
-		//		var identification: Sender.IDENTIFICATION,
-		//
-		//		@field:Element(name = "CONTACT")
-		//		var contact: Sender.CONTACT,
-		//
-		//		@field:Element(name = "NOTIFICATION", required = false)
-		//		var notification: Sender.NOTIFICATION
+		@field:Attribute(name = "PUBLICATION")
+		var publication: YesNo = YesNo._NOT_AVAILABLE,
+
+		@field:Element(name = "IDENTIFICATION")
+		var identification: Identification = Identification(),
+
+		@field:Element(name = "CONTACT")
+		var contact: Contact = Contact(),
+
+		@field:Element(name = "NOTIFICATION", required = false)
+		var notification: Notification = Notification()
 )

@@ -21,6 +21,10 @@ class SimpleTest {
 
 			println(technicalSection)
 
+			println(linksSection)
+
+			println(sender)
+
 			println(codedDataSection.codifData)
 			println(codedDataSection.noticeData)
 			println(codedDataSection.refOjs)

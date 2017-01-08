@@ -1,4 +1,4 @@
-package hu.juzraai.ted.xml.model.tedexport.coded.noticedata
+package hu.juzraai.ted.xml.model.common
 
 import hu.juzraai.ted.xml.model.helper.HasRequiredValue
 
