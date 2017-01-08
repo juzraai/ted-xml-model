@@ -13,7 +13,7 @@ import org.simpleframework.xml.Root
  *
  * @author Zsolt Jurányi
  */
-@Root(name = "TED_EXPORT", strict = false) // TODO turn off strict when done
+@Root(name = "TED_EXPORT", strict = false) // TODO turn on strict when done
 data class TedExport(
 		@field:Attribute(name = "DOC_ID") var docId: String = "",
 		@field:Attribute(name = "EDITION") var edition: String = "",
