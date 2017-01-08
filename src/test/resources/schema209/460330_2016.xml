@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><TED_EXPORT xmlns="http://formex.publications.europa.eu/ted/schema/export/R2.0.9.S01.E01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" VERSION="R2.0.9.S01.E01" xsi:schemaLocation="http://formex.publications.europa.eu/ted/schema/export/R2.0.9.S01.E01 TED_EXPORT.xsd" DOC_ID="460330-2016" EDITION="2016249">
+<TECHNICAL_SECTION>
+<RECEPTION_ID>16-485005-001</RECEPTION_ID>
+<DELETION_DATE>20170217</DELETION_DATE>
+<FORM_LG_LIST>EN </FORM_LG_LIST>
+<COMMENTS>From Convertor</COMMENTS>
+</TECHNICAL_SECTION>
+<LINKS_SECTION>
+<XML_SCHEMA_DEFINITION_LINK xlink:title="TED WEBSITE" xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+<OFFICIAL_FORMS_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+<FORMS_LABELS_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+<ORIGINAL_CPV_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+<ORIGINAL_NUTS_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+</LINKS_SECTION>
+<CODED_DATA_SECTION>
+<REF_OJS>
+<COLL_OJ>S</COLL_OJ>
+<NO_OJ>249</NO_OJ>
+<DATE_PUB>20161224</DATE_PUB>
+</REF_OJS>
+<NOTICE_DATA>
+<NO_DOC_OJS>2016/S 249-460330</NO_DOC_OJS>
+<URI_LIST>
+<URI_DOC LG="EN">http://ted.europa.eu/udl?uri=TED:NOTICE:460330-2016:TEXT:EN:HTML</URI_DOC>
+</URI_LIST>
+<LG_ORIG>EN</LG_ORIG>
+<ISO_COUNTRY VALUE="BE"/>
+<IA_URL_GENERAL>http://www.eeagrants.org</IA_URL_GENERAL>
+<IA_URL_ETENDERING>http://eeagrants.org/News/2016/Invitation-to-Tender-for-two-Multi-Year-Consulting-Services-contracts-for-the-EEA-and-Norway-Grants</IA_URL_ETENDERING>
+<ORIGINAL_CPV CODE="79950000">Exhibition, fair and congress organisation services</ORIGINAL_CPV>
+<ORIGINAL_NUTS CODE="BE">BELGIQUE-BELGIË</ORIGINAL_NUTS>
+<CA_CE_NUTS CODE="BE100">Arr. de Bruxelles-Capitale / Arr. van Brussel-Hoofdstad</CA_CE_NUTS>
+<VALUES>
+<VALUE TYPE="ESTIMATED_TOTAL" CURRENCY="EUR">700000.00</VALUE>
+</VALUES>
+</NOTICE_DATA>
+<CODIF_DATA>
+<DS_DATE_DISPATCH>20161221</DS_DATE_DISPATCH>
+<DT_DATE_FOR_SUBMISSION>20170217 12:00</DT_DATE_FOR_SUBMISSION>
+<AA_AUTHORITY_TYPE CODE="5">European Institution/Agency or International Organisation</AA_AUTHORITY_TYPE>
+<TD_DOCUMENT_TYPE CODE="3">Contract notice</TD_DOCUMENT_TYPE>
+<NC_CONTRACT_NATURE CODE="4">Services</NC_CONTRACT_NATURE>
+<PR_PROC CODE="1">Open procedure</PR_PROC>
+<RP_REGULATION CODE="3">European Institution/Agency or International Organisation</RP_REGULATION>
+<TY_TYPE_BID CODE="1">Submission for all lots</TY_TYPE_BID>
+<AC_AWARD_CRIT CODE="2">The most economic tender</AC_AWARD_CRIT>
+<MA_MAIN_ACTIVITIES CODE="B">Social protection</MA_MAIN_ACTIVITIES>
+<HEADING>05C02</HEADING>
+<INITIATOR>05</INITIATOR>
+<DIRECTIVE VALUE="2014/24/EU"/>
+</CODIF_DATA>
+</CODED_DATA_SECTION>
+<TRANSLATION_SECTION>
+<ML_TITLES>
+<ML_TI_DOC LG="BG">
+<TI_CY>Бeлгия</TI_CY>
+<TI_TOWN>Брюксел</TI_TOWN>
+<TI_TEXT>
+<P>Услуги по организиране на изложения, панаири и конгреси</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="CS">
+<TI_CY>Belgie</TI_CY>
+<TI_TOWN>Brusel</TI_TOWN>
+<TI_TEXT>
+<P>Organizace výstav, veletrhů a kongresů</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="DA">
+<TI_CY>Belgien</TI_CY>
+<TI_TOWN>Bruxelles</TI_TOWN>
+<TI_TEXT>
+<P>Organisering af udstillinger, messer og kongresser</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="DE">
+<TI_CY>Belgien</TI_CY>
+<TI_TOWN>Brüssel</TI_TOWN>
+<TI_TEXT>
+<P>Veranstaltung von Ausstellungen, Messen und Kongressen</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="EL">
+<TI_CY>Βέλγιο</TI_CY>
+<TI_TOWN>Βρυξέλλες</TI_TOWN>
+<TI_TEXT>
+<P>Υπηρεσίες διοργάνωσης εκθέσεων και συνεδρίων</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="EN">
+<TI_CY>Belgium</TI_CY>
+<TI_TOWN>Brussels</TI_TOWN>
+<TI_TEXT>
+<P>Exhibition, fair and congress organisation services</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="ES">
+<TI_CY>Bélgica</TI_CY>
+<TI_TOWN>Bruselas</TI_TOWN>
+<TI_TEXT>
+<P>Servicios de organización de exposiciones, ferias y congresos</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="ET">
+<TI_CY>Belgia</TI_CY>
+<TI_TOWN>Brüssel</TI_TOWN>
+<TI_TEXT>
+<P>Näituste, messide ja kongresside organiseerimisteenused</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="FI">
+<TI_CY>Belgia</TI_CY>
+<TI_TOWN>Bryssel</TI_TOWN>
+<TI_TEXT>
+<P>Näyttelyjen, messujen ja kongressien järjestelypalvelut</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="FR">
+<TI_CY>Belgique</TI_CY>
+<TI_TOWN>Bruxelles</TI_TOWN>
+<TI_TEXT>
+<P>Services d'organisation d'expositions, de foires et de congrès</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="GA">
+<TI_CY>Bheilg, an</TI_CY>
+<TI_TOWN>An Bhruiséil</TI_TOWN>
+<TI_TEXT>
+<P>Exhibition, fair and congress organisation services</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="HR">
+<TI_CY>Belgija</TI_CY>
+<TI_TOWN>Bruxelles</TI_TOWN>
+<TI_TEXT>
+<P>Usluge organizacije izložbi, sajmova i kongresa</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="HU">
+<TI_CY>Belgium</TI_CY>
+<TI_TOWN>Brüsszel</TI_TOWN>
+<TI_TEXT>
+<P>Kiállítás, vásár és kongresszusszervezési szolgáltatások</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="IT">
+<TI_CY>Belgio</TI_CY>
+<TI_TOWN>Bruxelles</TI_TOWN>
+<TI_TEXT>
+<P>Servizi di organizzazione di mostre, fiere e congressi</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="LT">
+<TI_CY>Belgija</TI_CY>
+<TI_TOWN>Briuselis</TI_TOWN>
+<TI_TEXT>
+<P>Parodų, mugių ir kongresų organizavimo paslaugos</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="LV">
+<TI_CY>Beļģija</TI_CY>
+<TI_TOWN>Brisele</TI_TOWN>
+<TI_TEXT>
+<P>Izstāžu, gadatirgu un kongresu organizēšanas pakalpojumi</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="MT">
+<TI_CY>il-Belġju</TI_CY>
+<TI_TOWN>Brussell</TI_TOWN>
+<TI_TEXT>
+<P>Servizzi ta' l-organizzazzjoni ta' fieri ta' l-esibizzjonijiet, u ta' l-organizzazzjoni tal-kongressi</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="NL">
+<TI_CY>België</TI_CY>
+<TI_TOWN>Brussel</TI_TOWN>
+<TI_TEXT>
+<P>Organiseren van tentoonstellingen, beurzen en congressen</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="PL">
+<TI_CY>Belgia</TI_CY>
+<TI_TOWN>Bruksela</TI_TOWN>
+<TI_TEXT>
+<P>Usługi w zakresie organizowania wystaw, targów i kongresów</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="PT">
+<TI_CY>Bélgica</TI_CY>
+<TI_TOWN>Bruxelas</TI_TOWN>
+<TI_TEXT>
+<P>Serviços de organização de exposições, feiras e congressos</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="RO">
+<TI_CY>Belgia</TI_CY>
+<TI_TOWN>Bruxelles</TI_TOWN>
+<TI_TEXT>
+<P>Servicii de organizare de expoziţii, de târguri şi de congrese</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="SK">
+<TI_CY>Belgicko</TI_CY>
+<TI_TOWN>Brusel</TI_TOWN>
+<TI_TEXT>
+<P>Organizovanie výstav, veľtrhov a kongresov</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="SL">
+<TI_CY>Belgija</TI_CY>
+<TI_TOWN>Bruselj</TI_TOWN>
+<TI_TEXT>
+<P>Storitve organiziranja razstav, sejmov in kongresov</P>
+</TI_TEXT>
+</ML_TI_DOC>
+<ML_TI_DOC LG="SV">
+<TI_CY>Belgien</TI_CY>
+<TI_TOWN>Bryssel</TI_TOWN>
+<TI_TEXT>
+<P>Tjänster för organisering av utställningar, mässor och kongresser</P>
+</TI_TEXT>
+</ML_TI_DOC>
+</ML_TITLES>
+<ML_AA_NAMES>
+<AA_NAME LG="EN">Financial Mechanism Office</AA_NAME>
+</ML_AA_NAMES>
+</TRANSLATION_SECTION>
+<FORM_SECTION>
+<F02_2014 CATEGORY="ORIGINAL" FORM="F02" LG="EN">
+<CONTRACTING_BODY>
+<ADDRESS_CONTRACTING_BODY>
+<OFFICIALNAME>Financial Mechanism Office</OFFICIALNAME>
+<TOWN>Brussels</TOWN>
+<POSTAL_CODE>1000</POSTAL_CODE>
+<COUNTRY VALUE="BE"/>
+<E_MAIL>alex.stimpson@efta.int</E_MAIL>
+<NUTS CODE="BE100"/>
+<URL_GENERAL>http://www.eeagrants.org</URL_GENERAL>
+</ADDRESS_CONTRACTING_BODY>
+<DOCUMENT_FULL/>
+<URL_DOCUMENT>http://eeagrants.org/News/2016/Invitation-to-Tender-for-two-Multi-Year-Consulting-Services-contracts-for-the-EEA-and-Norway-Grants</URL_DOCUMENT>
+<ADDRESS_FURTHER_INFO_IDEM/>
+<ADDRESS_PARTICIPATION_IDEM/>
+<CA_TYPE VALUE="EU_INSTITUTION"/>
+<CA_ACTIVITY VALUE="SOCIAL_PROTECTION"/>
+</CONTRACTING_BODY>
+<OBJECT_CONTRACT>
+<TITLE>
+<P>Facilitating stakeholder workshops services relating to EEA&amp;Norway Grants 2014-2021.</P>
+</TITLE>
+<REFERENCE_NUMBER>N/A</REFERENCE_NUMBER>
+<CPV_MAIN>
+<CPV_CODE CODE="79950000"/>
+</CPV_MAIN>
+<TYPE_CONTRACT CTYPE="SERVICES"/>
+<SHORT_DESCR>
+<P>The FMO will require assistance from experienced facilitators to facilitate meetings, including stakeholder consultation workshops, to be contracted via Detailed Contracts under a Framework Agreement.</P>
+</SHORT_DESCR>
+<VAL_ESTIMATED_TOTAL CURRENCY="EUR">700000.00</VAL_ESTIMATED_TOTAL>
+<NO_LOT_DIVISION/>
+<OBJECT_DESCR ITEM="1">
+<NUTS CODE="BE"/>
+<SHORT_DESCR>
+<P>See procurement documents.</P>
+</SHORT_DESCR>
+<AC_PROCUREMENT_DOC/>
+<DURATION TYPE="MONTH">24</DURATION>
+<RENEWAL/>
+<RENEWAL_DESCR>
+<P>Every twelve months.</P>
+</RENEWAL_DESCR>
+<NO_ACCEPTED_VARIANTS/>
+<NO_OPTIONS/>
+<NO_EU_PROGR_RELATED/>
+</OBJECT_DESCR>
+</OBJECT_CONTRACT>
+<PROCEDURE>
+<PT_OPEN/>
+<NO_CONTRACT_COVERED_GPA/>
+<DATE_RECEIPT_TENDERS>2017-02-17</DATE_RECEIPT_TENDERS>
+<TIME_RECEIPT_TENDERS>12:00</TIME_RECEIPT_TENDERS>
+<LANGUAGES>
+<LANGUAGE VALUE="EN"/>
+</LANGUAGES>
+<OPENING_CONDITION>
+<DATE_OPENING_TENDERS>2017-02-17</DATE_OPENING_TENDERS>
+<TIME_OPENING_TENDERS>12:00</TIME_OPENING_TENDERS>
+</OPENING_CONDITION>
+</PROCEDURE>
+<COMPLEMENTARY_INFO>
+<NO_RECURRENT_PROCUREMENT/>
+<ADDRESS_REVIEW_BODY>
+<OFFICIALNAME>Financial Mechanism Office</OFFICIALNAME>
+<TOWN>Brussels</TOWN>
+<COUNTRY VALUE="BE"/>
+</ADDRESS_REVIEW_BODY>
+<DATE_DISPATCH_NOTICE>2016-12-21</DATE_DISPATCH_NOTICE>
+</COMPLEMENTARY_INFO>
+</F02_2014>
+</FORM_SECTION>
+</TED_EXPORT>

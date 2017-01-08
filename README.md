@@ -48,7 +48,7 @@ I'm planning to create a model on TED's CODIF data and other resources that one 
 
 ## Usage
 
-The easiest way to use Toolbox is adding it as dependency from [JitPack.io](https://jitpack.io/#juzraai/toolbox). Follow the link to get information on how to do this, click on the green "Get it" button besides the latest version.
+The easiest way to use Toolbox is adding it as dependency from [JitPack.io](https://jitpack.io/#juzraai/ted-xml-model). Follow the link to get information on how to do this, click on the green "Get it" button besides the latest version.
 
 **Calling from Kotlin:**
 
