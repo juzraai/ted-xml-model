@@ -1,9 +1,6 @@
 package hu.juzraai.ted.xml.model
 
-import hu.juzraai.ted.xml.model.tedexport.CodedDataSection
-import hu.juzraai.ted.xml.model.tedexport.LinksSection
-import hu.juzraai.ted.xml.model.tedexport.Sender
-import hu.juzraai.ted.xml.model.tedexport.TechnicalSection
+import hu.juzraai.ted.xml.model.tedexport.*
 import org.simpleframework.xml.Attribute
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root
@@ -29,10 +26,10 @@ data class TedExport(
 		var sender: Sender = Sender(),
 
 		@field:Element(name = "CODED_DATA_SECTION")
-		var codedDataSection: CodedDataSection = CodedDataSection()
+		var codedDataSection: CodedDataSection = CodedDataSection(),
 
-		//@field:Element(name = "TRANSLATION_SECTION")
-		//var translationSection: TranslationSection = TranslationSection(),
+		@field:Element(name = "TRANSLATION_SECTION")
+		var translationSection: TranslationSection = TranslationSection()
 
 		//@field:Element(name = "FORM_SECTION")
 		//var formSection: FormSection = FormSection()

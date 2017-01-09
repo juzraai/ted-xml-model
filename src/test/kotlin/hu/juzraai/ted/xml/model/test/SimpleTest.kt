@@ -28,6 +28,8 @@ class SimpleTest {
 			println(codedDataSection.codifData)
 			println(codedDataSection.noticeData)
 			println(codedDataSection.refOjs)
+
+			println(translationSection)
 		}
 	}
 }

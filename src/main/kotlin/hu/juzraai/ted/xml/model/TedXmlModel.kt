@@ -9,18 +9,16 @@ import java.io.InputStream
  */
 class TedXmlModel {
 
+	// TODO maybe we can add a CLASS/FIELD annotation which tells schema compatibility as self documenting
+	// TODO + it can advise setting compatibility if all members are compatible
+	// TODO + it can also verify annotations, e.g. if some member is incompatible, parent must be also
+	// TODO e.g. @Compatible(value=TedXmlSchemaVersionEnum[])
+
 	companion object {
-		fun parse(inputStream: InputStream): TedExport {
-			return Persister().read(TedExport::class.java, inputStream)
-		}
+		fun parse(inputStream: InputStream): TedExport = Persister().read(TedExport::class.java, inputStream)
 
-		fun parse(file: File): TedExport {
-			return Persister().read(TedExport::class.java, file)
-		}
+		fun parse(file: File): TedExport = Persister().read(TedExport::class.java, file)
 
-		fun parse(resourceName: String): TedExport {
-			val input: InputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(resourceName)
-			return parse(input)
-		}
+		fun parse(resourceName: String): TedExport = parse(ClassLoader.getSystemClassLoader().getResourceAsStream(resourceName))
 	}
 }

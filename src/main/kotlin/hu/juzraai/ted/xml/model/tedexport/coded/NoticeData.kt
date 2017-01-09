@@ -4,7 +4,6 @@ import hu.juzraai.ted.xml.model.common.Country
 import hu.juzraai.ted.xml.model.common.Values
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.Nuts
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.OriginalCpv
-import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.RefNotice
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.UriDoc
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.ElementList
@@ -57,6 +56,6 @@ data class NoticeData(
 		@field:Element(name = "VALUES", required = false)
 		var values: Values = Values(),
 
-		@field:Element(name = "REF_NOTICE", required = false)
-		var refNotice: RefNotice = RefNotice()
+		@field:ElementList(name = "REF_NOTICE", entry = "NO_DOC_OJS", required = false)
+		var refNotice: List<String> = mutableListOf<String>() // 209, 208 OK
 )
