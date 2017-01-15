@@ -42,7 +42,7 @@ I'm planning to create a model on TED's CODIF data and other resources that one 
 | `LINKS_SECTION`       |   ✔   |   ✔   |
 | `SENDER`              |   ✔   |        |
 | `CODED_DATA_SECTION`  |   ✔   |        |
-| `TRANSLATION_SECTION` |        |        |
+| `TRANSLATION_SECTION` |   ✔   |        |
 | `FORM_SECTION`        |        |        |
 
 

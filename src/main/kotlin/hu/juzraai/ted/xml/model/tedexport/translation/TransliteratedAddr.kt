@@ -9,4 +9,17 @@ import org.simpleframework.xml.Root
  * @author Zsolt Jurányi
  */
 @Root(name = "TRANSLITERATED_ADDR", strict = false)
-class TransliteratedAddr : ContactContractingBody()
+class TransliteratedAddr : ContactContractingBody() {
+
+	override fun equals(other: Any?): Boolean {
+		return super.equals(other) && (other !is TransliteratedAddr)
+	}
+
+	override fun hashCode(): Int {
+		return super.hashCode()
+	}
+
+	override fun toString(): String {
+		return "TransliteratedAddr() ${super.toString()}"
+	}
+}
