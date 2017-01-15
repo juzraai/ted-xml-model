@@ -25,12 +25,14 @@ I'm planning to create a model on TED's CODIF data and other resources that one 
 
 ## Features
 
+* Provides you a one-liner to parse a TED-XML (see below)
 * Written in Kotlin - runs on JVM, fully Java compatible
 * Maven project - you can import it easily (see below)
 * It also imports Simple XML framework
-* Provides you a one-liner to parse a TED-XML (see below)
 * There are no `null` values in the model (and if you are using Kotlin, there will never be!) - you can safely write getter chains
 * *(Planning to be)* Compatible with both TED-XML schema versions being used currently (R2.0.9 and R2.0.8, see table below)
+
+Note that this model is **only for parsing TED XMLs** and NOT for validating or generating them.
 
 
 
@@ -40,10 +42,10 @@ I'm planning to create a model on TED's CODIF data and other resources that one 
 |:----------------------|:------:|:------:|
 | `TECHNICAL_SECTION`   |   ✔   |   ✔   |
 | `LINKS_SECTION`       |   ✔   |   ✔   |
-| `SENDER`              |   ✔   |        |
-| `CODED_DATA_SECTION`  |   ✔   |        |
-| `TRANSLATION_SECTION` |   ✔   |        |
-| `FORM_SECTION`        |        |        |
+| `SENDER`              |   ✔   |       |
+| `CODED_DATA_SECTION`  |   ✔   |       |
+| `TRANSLATION_SECTION` |   ✔   |       |
+| `FORM_SECTION`        |       |        |
 
 
 

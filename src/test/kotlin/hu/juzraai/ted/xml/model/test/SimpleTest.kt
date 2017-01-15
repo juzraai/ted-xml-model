@@ -11,6 +11,8 @@ import org.junit.Test
  */
 class SimpleTest {
 
+	// TODO test a bunch of XMLs, e.g. the 1st daily packages 2011..2017
+
 	@Test
 	fun testSchemaR209() {
 		var tedExport = TedXmlModel.parse("schema209/460330_2016.xml")
