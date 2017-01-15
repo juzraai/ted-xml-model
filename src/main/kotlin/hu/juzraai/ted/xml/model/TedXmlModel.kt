@@ -1,5 +1,6 @@
 package hu.juzraai.ted.xml.model
 
+import org.simpleframework.xml.convert.AnnotationStrategy
 import org.simpleframework.xml.core.Persister
 import java.io.File
 import java.io.InputStream
@@ -15,10 +16,12 @@ class TedXmlModel {
 	// TODO e.g. @Compatible(value=TedXmlSchemaVersionEnum[])
 
 	companion object {
-		fun parse(inputStream: InputStream): TedExport = Persister().read(TedExport::class.java, inputStream)
+		fun parse(inputStream: InputStream): TedExport = persister().read(TedExport::class.java, inputStream)
 
-		fun parse(file: File): TedExport = Persister().read(TedExport::class.java, file)
+		fun parse(file: File): TedExport = persister().read(TedExport::class.java, file)
 
 		fun parse(resourceName: String): TedExport = parse(ClassLoader.getSystemClassLoader().getResourceAsStream(resourceName))
+
+		private fun persister(): Persister = Persister(AnnotationStrategy())
 	}
 }
