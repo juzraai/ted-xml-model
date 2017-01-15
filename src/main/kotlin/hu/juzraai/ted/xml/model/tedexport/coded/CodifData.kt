@@ -1,7 +1,7 @@
 package hu.juzraai.ted.xml.model.tedexport.coded
 
-import hu.juzraai.ted.xml.model.common.Values
 import hu.juzraai.ted.xml.model.tedexport.coded.codif.*
+import hu.juzraai.ted.xml.model.tedexport.common.Values
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.ElementList
 import org.simpleframework.xml.Root

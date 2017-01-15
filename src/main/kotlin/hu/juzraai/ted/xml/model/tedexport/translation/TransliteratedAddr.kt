@@ -1,6 +1,6 @@
 package hu.juzraai.ted.xml.model.tedexport.translation
 
-import hu.juzraai.ted.xml.model.common.ContactContractingBody
+import hu.juzraai.ted.xml.model.tedexport.common.ContactContractingBody
 import org.simpleframework.xml.Root
 
 /**

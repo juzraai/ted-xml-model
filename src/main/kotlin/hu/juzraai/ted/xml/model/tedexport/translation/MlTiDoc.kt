@@ -1,7 +1,7 @@
 package hu.juzraai.ted.xml.model.tedexport.translation
 
-import hu.juzraai.ted.xml.model.common.TextFtSingleLine
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.CeLanguage
+import hu.juzraai.ted.xml.model.tedexport.common.TextFtSingleLine
 import org.simpleframework.xml.Attribute
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root

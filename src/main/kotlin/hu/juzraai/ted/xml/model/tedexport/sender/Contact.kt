@@ -1,6 +1,6 @@
 package hu.juzraai.ted.xml.model.tedexport.sender
 
-import hu.juzraai.ted.xml.model.common.Country
+import hu.juzraai.ted.xml.model.tedexport.common.Country
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root
 

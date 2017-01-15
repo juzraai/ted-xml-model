@@ -1,4 +1,4 @@
-package hu.juzraai.ted.xml.model.common
+package hu.juzraai.ted.xml.model.tedexport.common
 
 /**
  * @author Zsolt Jurányi

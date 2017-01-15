@@ -1,8 +1,8 @@
 package hu.juzraai.ted.xml.model.helper
 
-import hu.juzraai.ted.xml.model.common.Ft
-import hu.juzraai.ted.xml.model.common.FtType
-import hu.juzraai.ted.xml.model.common.P
+import hu.juzraai.ted.xml.model.tedexport.common.Ft
+import hu.juzraai.ted.xml.model.tedexport.common.FtType
+import hu.juzraai.ted.xml.model.tedexport.common.P
 import org.simpleframework.xml.convert.Converter
 import org.simpleframework.xml.stream.InputNode
 import org.simpleframework.xml.stream.OutputNode

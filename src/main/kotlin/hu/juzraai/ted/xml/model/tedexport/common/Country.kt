@@ -1,4 +1,4 @@
-package hu.juzraai.ted.xml.model.common
+package hu.juzraai.ted.xml.model.tedexport.common
 
 import hu.juzraai.ted.xml.model.helper.HasRequiredValue
 

@@ -1,4 +1,4 @@
-package hu.juzraai.ted.xml.model.common
+package hu.juzraai.ted.xml.model.tedexport.common
 
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.Nuts
 import org.simpleframework.xml.Element
@@ -47,7 +47,7 @@ open class ContactContractingBody(
 		if (!super.equals(other)) return false
 
 		if (address != other.address) return false
-		
+
 		if (town != other.town) return false
 		if (postalcode != other.postalcode) return false
 		if (country != other.country) return false

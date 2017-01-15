@@ -1,10 +1,10 @@
 package hu.juzraai.ted.xml.model.tedexport.coded
 
-import hu.juzraai.ted.xml.model.common.Country
-import hu.juzraai.ted.xml.model.common.Values
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.Nuts
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.OriginalCpv
 import hu.juzraai.ted.xml.model.tedexport.coded.noticedata.UriDoc
+import hu.juzraai.ted.xml.model.tedexport.common.Country
+import hu.juzraai.ted.xml.model.tedexport.common.Values
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.ElementList
 import org.simpleframework.xml.Root
