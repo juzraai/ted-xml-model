@@ -26,4 +26,6 @@ data class Sender(
 
 		@field:Element(name = "NOTIFICATION", required = false)
 		var notification: Notification = Notification()
+
+		// TODO R208 has other fields
 )

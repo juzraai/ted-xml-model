@@ -1,5 +1,7 @@
 package hu.juzraai.ted.xml.model.tedexport
 
+import hu.juzraai.ted.xml.model.meta.DefinedOnlyIn
+import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R208
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root
 
@@ -23,5 +25,6 @@ data class TechnicalSection(
 		var comments: String = "", // TODO in R2.0.8 it has type "btx" instead of string
 
 		@field:Element(name = "OLD_HEADING", required = false)
+		@DefinedOnlyIn(R208)
 		var oldHeading: String = "" // R2.0.8
 )
