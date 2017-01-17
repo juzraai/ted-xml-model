@@ -11,8 +11,8 @@ class ConsistencyTest {
 
 	@Test
 	fun consistencyTest() {
-		Consistency().check(TedExport::class.java)
-		// TODO print report
+		val r = Consistency().check(TedExport::class.java)
+		Consistency().printReport(r)
 		// TODO fail if warn count > 0 ?
 	}
 }
