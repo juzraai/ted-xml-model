@@ -25,22 +25,16 @@ class Consistency {
 
 		// gather real version compatibility for each field
 		val children = mutableListOf<List<TedXmlSchemaVersion>>()
-		/*examinedClass.declaredFields.filter { isRelevantField(it) }.forEach {
-			children.add(checkImpl(examinedClass, it, it.type, warnings))
-		}*/
 		examinedClass.declaredFields.forEach {
-			val annotated = !it.annotations
-					.asList()
-					.filter { it.toString().startsWith("@org.simpleframework.xml") } // bc javaClass is com.sun.proxy.*
-					.isEmpty()
 			val enum = it.type.isEnum
 			val model = it.type.name.startsWith("hu.juzraai.ted.xml.model")
 			if (!enum && (model)) {
+				// go deep in model types
 				children.add(checkImpl(examinedClass, it, it.type, warnings))
 			} else {
+				// examine only annotation of primitives
 				val a = it.getAnnotation(Compatible::class.java)
-				val v = a?.value?.asList() ?: listOf<TedXmlSchemaVersion>()
-				children.add(v)
+				children.add(a?.value?.asList() ?: listOf<TedXmlSchemaVersion>())
 			}
 		}
 

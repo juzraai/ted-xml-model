@@ -33,6 +33,7 @@ data class TedExport(
 		var technicalSection: TechnicalSection = TechnicalSection(),
 
 		@field:Element(name = "LINKS_SECTION")
+		@field:Compatible(R208, R209)
 		var linksSection: LinksSection = LinksSection(),
 
 		@field:Element(name = "SENDER", required = false)
