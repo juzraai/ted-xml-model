@@ -19,7 +19,7 @@ This repository contains a "POKO" (POJO - in Kotlin 🙃) model annotated with [
 
 Of course, the structure of the XML and therefore this model **may need some transformation** if you want to work with the data, but this model provides you a kickstart.
 
-I'm planning to create a model on TED's CODIF data and other resources that one may need in projects related to public procurements.
+I'm also planning to create a model on TED's CODIF data and other resources that one may need in projects related to public procurements.
 
 
 
@@ -62,7 +62,7 @@ val tedExport = TedXmlModel.parse(/* File or InputStream or resource name */)
 **Calling from Java:**
 
 ```java
-TedExport tedExport = TedXmlModel.Companion.parse(/* File or InputStream or resource name */);
+TedExport tedExport = TedXmlModel.parse(/* File or InputStream or resource name */);
 ```
 
 
