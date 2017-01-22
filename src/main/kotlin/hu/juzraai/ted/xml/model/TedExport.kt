@@ -25,11 +25,12 @@ data class TedExport(
 		var edition: String = "",
 
 		@field:Attribute(name = "VERSION", required = false)
-		@field:Compatible(R208, R209) @field:DefinedOnlyIn(R209)
+		@field:Compatible(R208, R209)
+		@field:DefinedOnlyIn(R209)
 		var version: String = "",
 
 		@field:Element(name = "TECHNICAL_SECTION")
-		@field:Compatible(R208, R209)
+		@field:Compatible(R209)
 		var technicalSection: TechnicalSection = TechnicalSection(),
 
 		@field:Element(name = "LINKS_SECTION")
