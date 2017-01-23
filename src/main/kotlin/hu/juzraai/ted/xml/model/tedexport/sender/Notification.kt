@@ -1,5 +1,7 @@
 package hu.juzraai.ted.xml.model.tedexport.sender
 
+import hu.juzraai.ted.xml.model.tedexport.common.YesNo
+import hu.juzraai.ted.xml.model.tedexport.sender.notification.ToBeInformed
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root
 

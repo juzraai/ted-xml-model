@@ -1,5 +1,6 @@
-package hu.juzraai.ted.xml.model.tedexport.sender
+package hu.juzraai.ted.xml.model.tedexport.sender.notification
 
+import hu.juzraai.ted.xml.model.tedexport.common.YesNo
 import org.simpleframework.xml.Attribute
 
 /**

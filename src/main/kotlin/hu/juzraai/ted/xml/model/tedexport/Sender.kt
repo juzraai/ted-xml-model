@@ -4,6 +4,7 @@ import hu.juzraai.ted.xml.model.meta.Compatible
 import hu.juzraai.ted.xml.model.meta.DefinedOnlyIn
 import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R208
 import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R209
+import hu.juzraai.ted.xml.model.tedexport.common.YesNo
 import hu.juzraai.ted.xml.model.tedexport.sender.*
 import org.simpleframework.xml.Attribute
 import org.simpleframework.xml.Element

@@ -1,4 +1,4 @@
-package hu.juzraai.ted.xml.model.tedexport.sender
+package hu.juzraai.ted.xml.model.tedexport.sender.login
 
 /**
  * @author Zsolt Jurányi

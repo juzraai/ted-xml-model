@@ -4,6 +4,7 @@ import hu.juzraai.ted.xml.model.meta.Compatible
 import hu.juzraai.ted.xml.model.meta.DefinedOnlyIn
 import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R208
 import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R209
+import hu.juzraai.ted.xml.model.tedexport.sender.login.LoginClass
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.Root
 
