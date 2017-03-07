@@ -38,6 +38,7 @@ data class TedExport(
 		var linksSection: LinksSection = LinksSection(),
 
 		@field:Element(name = "SENDER", required = false)
+		//@field:Compatible(R208, R209)
 		var sender: Sender = Sender(),
 
 		@field:Element(name = "CODED_DATA_SECTION")

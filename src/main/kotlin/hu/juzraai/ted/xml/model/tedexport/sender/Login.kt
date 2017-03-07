@@ -26,5 +26,7 @@ data class Login(
 		var customerLogin: String = "",
 
 		@field:Element(name = "CLASS")
+		@field:Compatible(R208, R209)
+		@field:DefinedOnlyIn(R208)
 		var loginClass: LoginClass = LoginClass._NOT_AVAILABLE
 )
