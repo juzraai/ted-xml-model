@@ -42,7 +42,7 @@ Note that this model is **only for parsing TED XMLs** and NOT for validating or 
 |:----------------------|:------:|:------:|
 | `TECHNICAL_SECTION`   |   ✔   |       |
 | `LINKS_SECTION`       |   ✔   |   ✔   |
-| `SENDER`              |   ✔   |       |
+| `SENDER`              |   ✔   |   ✔   |
 | `CODED_DATA_SECTION`  |   ✔   |       |
 | `TRANSLATION_SECTION` |   ✔   |       |
 | `FORM_SECTION`        |       |        |

@@ -2,7 +2,6 @@ package hu.juzraai.ted.xml.model.tedexport.sender
 
 import hu.juzraai.ted.xml.model.meta.Compatible
 import hu.juzraai.ted.xml.model.meta.DefinedOnlyIn
-import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion
 import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R208
 import hu.juzraai.ted.xml.model.meta.TedXmlSchemaVersion.R209
 import hu.juzraai.ted.xml.model.tedexport.common.Country
@@ -24,7 +23,7 @@ data class Contact(
 		@field:Element(name = "COUNTRY")
 		@field:Compatible(R208, R209)
 		@field:DefinedOnlyIn(R208)
-		var country: Country = Country(), // TODO consistency check fails?
+		var country: Country = Country(),
 
 		@field:Element(name = "PHONE", required = false)
 		@field:Compatible(R208, R209)
